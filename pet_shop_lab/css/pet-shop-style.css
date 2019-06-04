@@ -1,0 +1,50 @@
+h1 {
+
+font-weight: 2px;
+text-align: center;
+color: #0000cc;
+background-color: #cc3399;
+text-transform: uppercase;
+padding: 50px;
+}
+
+body{
+	background-color: gray;
+}
+.fish {
+	color: orange;
+	text-decoration: underline;
+}
+
+.mammal {
+	color: red;
+	font-weight: bold;
+}
+
+.bird {
+	color: blue;
+	font-style: italic;
+}
+
+li {
+	background-color: white;
+	padding: 20px;
+	font-size: 30px;
+	width: 10%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+li:hover {
+	opacity: 0.5;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+}
+
